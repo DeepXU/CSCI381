@@ -1,0 +1,53 @@
+interval_seconds: 60
+
+timeout_seconds: 5
+
+
+
+teams: [2,3,4,5]
+
+
+
+net:
+
+  router_external_ip: "172.18.13.{t}"
+
+  shell_external_ip: "172.18.14.{t}"
+
+  web_internal_ip: "192.168.{t}.5"
+
+  db_internal_ip: "192.168.{t}.7"
+
+  dns_internal_ip: "192.168.{t}.12"
+
+
+
+domains:
+
+  internal: "team{t}.net"
+
+  public: "team{t}.cnyhackathon.org"
+
+
+
+smb:
+
+  share: "files"
+
+  directory: "/mnt/files"
+
+
+
+postgres:
+
+  database: "db"
+
+  user: "bill_kaplan"
+
+
+
+web:
+
+  user: "admin"
+
+

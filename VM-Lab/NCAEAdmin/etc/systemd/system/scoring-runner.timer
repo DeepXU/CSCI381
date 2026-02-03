@@ -1,0 +1,11 @@
+[Unit]
+Description=Run scoring engine every minute
+
+[Timer]
+OnBootSec=30
+OnUnitActiveSec=60
+Unit=scoring-runner.service
+
+[Install]
+WantedBy=timers.target
+

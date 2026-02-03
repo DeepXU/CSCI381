@@ -1,0 +1,52 @@
+SMB_USERS = [
+    "benjamin_franklin",
+    "alexander_hamilton",
+    "theodore_roosevelt",
+    "winston_churchill",
+    "florence_nightingale",
+    "eleanor_roosevelt",
+    "mother_teresa",
+    "mahatma_gandhi",
+    "socrates",
+    "plato",
+    "aristotle",
+    "hippocrates",
+    "archimedes",
+    "rene_descartes",
+    "voltaire",
+    "jean_jacques_rousseau",
+    "immanuel_kant",
+    "friedrich_nietzsche",
+    "sigmund_freud",
+    "charles_darwin",
+    "marie_antoinette",
+    "louis_xiv",
+    "peter_the_great",
+]
+
+SMB_PASS = "cnyrocks"
+SMB_SHARE = "files"
+
+REQUIRED_FILES = [
+    "amsterdam.data",
+    "berlin.data",
+    "brussels.data",
+    "data_dump_1.bin",
+    "data_dump_2.bin",
+    "data_dump_3.bin",
+    "datadump.bin",
+    "dublin.data",
+    "lisbon.data",
+    "ljubljana.data",
+    "nicosia.data",
+    "oslo.data",
+    "paris.data",
+    "prague.data",
+    "reykjavik.data",
+    "rome.data",
+    "stockholm.data",
+    "valletta.data",
+    "vilnius.data",
+    "warsaw.data",
+]
+

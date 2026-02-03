@@ -1,0 +1,17 @@
+[Unit]
+Description=NCAE Scoring Engine Runner
+After=network.target postgresql.service
+
+[Service]
+Type=oneshot
+User=root
+WorkingDirectory=/opt/scoring-engine
+ExecStart=/opt/scoring-engine/.venv/bin/python -m app.runner
+
+# VERY IMPORTANT
+TimeoutStartSec=300
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target
+
