@@ -1,6 +1,6 @@
 <html>
 
-# NCAE CyberGames – Training Repository (2026)
+# Training Repository (2026)
 
 This repository serves as the **central training, documentation, and operations hub** for the NCAE CyberGames competition. It contains all required materials for environment setup, service configuration, security hardening, recovery procedures, threat hunting, and role coordination.
 
